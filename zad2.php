@@ -21,7 +21,6 @@
             $options = 0;
 
             $encryption_iv = random_bytes($iv_length);
-            //Kriptiraj podatke sa openssl
         
 
             $db = new mysqli("localhost", "root", "", "lv2", 3307);
